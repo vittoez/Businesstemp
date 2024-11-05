@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Email Template</title>
+  <style>
+    /* General styling for the email */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #ffffff;
+    }
+    .header {
+      background-color: #0073e6;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .content {
+      padding: 20px;
+      color: #333333;
+    }
+    .content p {
+      line-height: 1.6;
+      margin: 0 0 10px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0073e6;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .footer {
+      background-color: #eeeeee;
+      padding: 10px;
+      text-align: center;
+      color: #666666;
+      font-size: 12px;
+    }
+    @media (max-width: 600px) {
+      .content, .header, .footer {
+        padding: 15px;
+      }
+      .header h1 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <!-- Header Section -->
+    <tr>
+      <td class="header">
+        <h1>Your Company</h1>
+      </td>
+    </tr>
+    
+    <!-- Content Section -->
+    <tr>
+      <td class="content">
+        <h2>Hello, [Customer Name]</h2>
+        <p>We’re excited to have you with us! Here’s a quick overview of what’s coming up.</p>
+        <p>To get started, please click the button below.</p>
+        <p>
+          <a href="[Your Link Here]" class="button">Get Started</a>
+        </p>
+        <p>If you have any questions, feel free to reach out to us.</p>
+      </td>
+    </tr>
+    
+    <!-- Footer Section -->
+    <tr>
+      <td class="footer">
+        &copy; 2023 Your Company. All rights reserved.<br>
+        1234 Your Street, Your City, Country
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
