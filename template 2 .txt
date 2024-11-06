@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Email Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border: 1px solid #dddddd;
+        }
+        .header {
+            background-color: #0047AB;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .content h2 {
+            color: #0047AB;
+            font-size: 20px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0047AB;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #f8f8f8;
+            color: #666666;
+            font-size: 12px;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="email-container">
+    <!-- Header -->
+    <div class="header">
+        <h1>Your Company Name</h1>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h2>Dear [Recipient's Name],</h2>
+        <p>
+            We are excited to reach out to you about [product, service, or update]. We believe it could bring value to you and your team. Here’s how [product or service] can help you:
+        </p>
+        <ul>
+            <li>Benefit or feature #1</li>
+            <li>Benefit or feature #2</li>
+            <li>Benefit or feature #3</li>
+        </ul>
+        <p>
+            Feel free to reach out to us if you have any questions or would like a demo. Click below to learn more:
+        </p>
+        <a href="[URL]" class="button">Learn More</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Company Address | Phone Number</p>
+        <p><a href="mailto:info@company.com">info@company.com</a> | <a href="[Unsubscribe Link]">Unsubscribe</a></p>
+        <p>&copy; [Year] Your Company Name. All rights reserved.</p>
+    </div>
+</div>
+
+</body>
+</html>
